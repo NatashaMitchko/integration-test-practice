@@ -21,3 +21,16 @@ h1 {
     background: pink url(/static/img/balloonicorn.png) no-repeat right;
     background-size: 220px 210px;
 }
+#bounce {
+    height:300px;
+}
+
+#cupcake {
+    animation: float 5s ease-in-out infinite;
+    width:40%;
+    }
+
+
+@keyframes float {
+    50%{transform:translate(0, 10px)}
+}
